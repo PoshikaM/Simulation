@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+.scoreboard{
+    margin-bottom: 20px;
+}
+  
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+  
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+  
+.mole{
+    background-color: darkred;
+}  
